@@ -418,11 +418,15 @@
 	</RadarRangeAxis>
 	<RadarIncreaseRange>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_RBumper">
+			<Modifier Device="045E02EA" Key="GamePad_FaceLeft" />
+		</Secondary>
 	</RadarIncreaseRange>
 	<RadarDecreaseRange>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_LBumper">
+			<Modifier Device="045E02EA" Key="GamePad_FaceLeft" />
+		</Secondary>
 	</RadarDecreaseRange>
 	<IncreaseEnginesPower>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Up" />
@@ -446,13 +450,11 @@
 	</HMDReset>
 	<ToggleCargoScoop>
 		<Primary Device="SaitekX52Pro" Key="Joy_11" />
-		<Secondary Device="Keyboard" Key="Key_Home" />
+		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
-		<Primary Device="SaitekX52Pro" Key="Joy_11">
-			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo>
 	<LandingGearToggle>
@@ -462,7 +464,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</LandingGearToggle>
 	<MicrophoneMute>
-		<Primary Device="Mouse" Key="Mouse_2" />
+		<Primary Device="SaitekX52Pro" Key="Joy_11">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</MicrophoneMute>
@@ -570,7 +574,7 @@
 	</OpenCodexGoToDiscovery>
 	<PlayerHUDModeToggle>
 		<Primary Device="SaitekX52Pro" Key="Joy_13" />
-		<Secondary Device="Keyboard" Key="Key_M" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</PlayerHUDModeToggle>
 	<ExplorationFSSEnter>
 		<Primary Device="SaitekX52Pro" Key="Joy_12" />
@@ -578,27 +582,27 @@
 	</ExplorationFSSEnter>
 	<UI_Up>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Up" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadUp" />
 	</UI_Up>
 	<UI_Down>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Down" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadDown" />
 	</UI_Down>
 	<UI_Left>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Left" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadLeft" />
 	</UI_Left>
 	<UI_Right>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Right" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadRight" />
 	</UI_Right>
 	<UI_Select>
 		<Primary Device="SaitekX52Pro" Key="Joy_4" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_FaceDown" />
 	</UI_Select>
 	<UI_Back>
 		<Primary Device="SaitekX52Pro" Key="Joy_3" />
-		<Secondary Device="Keyboard" Key="Key_Backspace" />
+		<Secondary Device="045E02EA" Key="GamePad_FaceRight" />
 	</UI_Back>
 	<UI_Toggle>
 		<Primary Device="Keyboard" Key="Key_Equals" />
@@ -606,19 +610,23 @@
 	</UI_Toggle>
 	<CycleNextPanel>
 		<Primary Device="SaitekX52Pro" Key="Joy_21" />
-		<Secondary Device="Keyboard" Key="Key_E" />
+		<Secondary Device="045E02EA" Key="GamePad_RBumper" />
 	</CycleNextPanel>
 	<CyclePreviousPanel>
 		<Primary Device="SaitekX52Pro" Key="Joy_23" />
-		<Secondary Device="Keyboard" Key="Key_Q" />
+		<Secondary Device="045E02EA" Key="GamePad_LBumper" />
 	</CyclePreviousPanel>
 	<CycleNextPage>
-		<Primary Device="Keyboard" Key="Key_C" />
-		<Secondary Device="SaitekX52Pro" Key="Joy_25" />
+		<Primary Device="SaitekX52Pro" Key="Joy_25" />
+		<Secondary Device="045E02EA" Key="GamePad_RBumper">
+			<Modifier Device="045E02EA" Key="GamePad_FaceLeft" />
+		</Secondary>
 	</CycleNextPage>
 	<CyclePreviousPage>
-		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="SaitekX52Pro" Key="Joy_27" />
+		<Primary Device="SaitekX52Pro" Key="Joy_27" />
+		<Secondary Device="045E02EA" Key="GamePad_LBumper">
+			<Modifier Device="045E02EA" Key="GamePad_FaceLeft" />
+		</Secondary>
 	</CyclePreviousPage>
 	<MouseHeadlook Value="1" />
 	<MouseHeadlookInvert Value="0" />
@@ -644,8 +652,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookPitchDown>
 	<HeadLookPitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="1" />
+		<Binding Device="045E02EA" Key="GamePad_RStickY" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookPitchAxisRaw>
 	<HeadLookYawLeft>
@@ -657,7 +665,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookYawRight>
 	<HeadLookYawAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="045E02EA" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookYawAxis>
@@ -752,11 +760,13 @@
 		<Secondary Device="Keyboard" Key="Key_Home" />
 	</GalaxyMapHome>
 	<ToggleDriveAssist>
-		<Primary Device="SaitekX52Pro" Key="Joy_19" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52Pro" Key="Joy_7">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
+		<Secondary Device="045E02EA" Key="GamePad_Back" />
 		<ToggleOn Value="1" />
 	</ToggleDriveAssist>
-	<DriveAssistDefault Value="1" />
+	<DriveAssistDefault Value="0" />
 	<MouseBuggySteeringXMode Value="" />
 	<MouseBuggySteeringXDecay Value="0" />
 	<MouseBuggyRollingXMode Value="" />
@@ -764,7 +774,7 @@
 	<MouseBuggyYMode Value="" />
 	<MouseBuggyYDecay Value="0" />
 	<SteeringAxis>
-		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
+		<Binding Device="045E02EA" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SteeringAxis>
@@ -777,7 +787,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SteerRightButton>
 	<BuggyRollAxisRaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_XAxis" />
+		<Binding Device="045E02EA" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyRollAxisRaw>
@@ -790,8 +800,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyRollRightButton>
 	<BuggyPitchAxis>
-		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
-		<Inverted Value="1" />
+		<Binding Device="045E02EA" Key="GamePad_LStickY" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyPitchAxis>
 	<BuggyPitchUpButton>
@@ -804,52 +814,58 @@
 	</BuggyPitchDownButton>
 	<VerticalThrustersButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_31" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_FaceUp" />
 		<ToggleOn Value="0" />
 	</VerticalThrustersButton>
 	<BuggyPrimaryFireButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_1" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_RBumper" />
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_5" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_LBumper" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_5">
 			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_FaceRight" />
 		<ToggleOn Value="1" />
 	</AutoBreakBuggyButton>
 	<HeadlightsBuggyButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_14" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadRight">
+			<Modifier Device="045E02EA" Key="GamePad_FaceLeft" />
+		</Secondary>
 	</HeadlightsBuggyButton>
 	<ToggleBuggyTurretButton>
 		<Primary Device="SaitekX52Pro" Key="Joy_2" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_LThumb" />
 	</ToggleBuggyTurretButton>
 	<BuggyCycleFireGroupNext>
 		<Primary Device="SaitekX52Pro" Key="Joy_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_RBumper">
+			<Modifier Device="045E02EA" Key="GamePad_FaceDown" />
+		</Secondary>
 	</BuggyCycleFireGroupNext>
 	<BuggyCycleFireGroupPrevious>
 		<Primary Device="SaitekX52Pro" Key="Joy_3">
 			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_LBumper">
+			<Modifier Device="045E02EA" Key="GamePad_FaceDown" />
+		</Secondary>
 	</BuggyCycleFireGroupPrevious>
 	<SelectTarget_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_4" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_RThumb" />
 	</SelectTarget_Buggy>
 	<MouseTurretXMode Value="" />
 	<MouseTurretXDecay Value="1" />
 	<MouseTurretYMode Value="" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="045E02EA" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretYawAxisRaw>
@@ -862,7 +878,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="045E02EA" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretPitchAxisRaw>
@@ -898,47 +914,49 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</DecreaseSpeedButtonMax>
 	<IncreaseSpeedButtonPartial>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="045E02EA" Key="GamePad_RTrigger" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</IncreaseSpeedButtonPartial>
 	<DecreaseSpeedButtonPartial>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="045E02EA" Key="GamePad_LTrigger" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</DecreaseSpeedButtonPartial>
 	<IncreaseEnginesPower_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Up" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadUp" />
 	</IncreaseEnginesPower_Buggy>
 	<IncreaseWeaponsPower_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Right" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadRight" />
 	</IncreaseWeaponsPower_Buggy>
 	<IncreaseSystemsPower_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Left" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadLeft" />
 	</IncreaseSystemsPower_Buggy>
 	<ResetPowerDistribution_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_POV1Down" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadDown" />
 	</ResetPowerDistribution_Buggy>
 	<ToggleCargoScoop_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_11" />
-		<Secondary Device="Keyboard" Key="Key_Home" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadLeft">
+			<Modifier Device="045E02EA" Key="GamePad_FaceLeft" />
+		</Secondary>
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop_Buggy>
 	<EjectAllCargo_Buggy>
-		<Primary Device="SaitekX52Pro" Key="Joy_11">
-			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo_Buggy>
 	<RecallDismissShip>
 		<Primary Device="SaitekX52Pro" Key="Joy_2">
 			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadDown">
+			<Modifier Device="045E02EA" Key="GamePad_FaceLeft" />
+		</Secondary>
 	</RecallDismissShip>
 	<UIFocus_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_6" />
@@ -946,11 +964,15 @@
 	</UIFocus_Buggy>
 	<FocusLeftPanel_Buggy>
 		<Primary Device="Keyboard" Key="Key_1" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadLeft">
+			<Modifier Device="045E02EA" Key="GamePad_FaceDown" />
+		</Secondary>
 	</FocusLeftPanel_Buggy>
 	<FocusCommsPanel_Buggy>
 		<Primary Device="Keyboard" Key="Key_2" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadUp">
+			<Modifier Device="045E02EA" Key="GamePad_FaceDown" />
+		</Secondary>
 	</FocusCommsPanel_Buggy>
 	<QuickCommsPanel_Buggy>
 		<Primary Device="Keyboard" Key="Key_Enter" />
@@ -958,11 +980,15 @@
 	</QuickCommsPanel_Buggy>
 	<FocusRadarPanel_Buggy>
 		<Primary Device="Keyboard" Key="Key_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadDown">
+			<Modifier Device="045E02EA" Key="GamePad_FaceDown" />
+		</Secondary>
 	</FocusRadarPanel_Buggy>
 	<FocusRightPanel_Buggy>
 		<Primary Device="Keyboard" Key="Key_4" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadRight">
+			<Modifier Device="045E02EA" Key="GamePad_FaceDown" />
+		</Secondary>
 	</FocusRightPanel_Buggy>
 	<GalaxyMapOpen_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_9" />
@@ -977,12 +1003,16 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OpenCodexGoToDiscovery_Buggy>
 	<PlayerHUDModeToggle_Buggy>
-		<Primary Device="Keyboard" Key="Key_M" />
-		<Secondary Device="SaitekX52Pro" Key="Joy_13" />
+		<Primary Device="SaitekX52Pro" Key="Joy_13" />
+		<Secondary Device="045E02EA" Key="GamePad_DPadUp">
+			<Modifier Device="045E02EA" Key="GamePad_FaceLeft" />
+		</Secondary>
 	</PlayerHUDModeToggle_Buggy>
 	<HeadLookToggle_Buggy>
 		<Primary Device="SaitekX52Pro" Key="Joy_8" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="045E02EA" Key="GamePad_LThumb">
+			<Modifier Device="045E02EA" Key="GamePad_FaceLeft" />
+		</Secondary>
 		<ToggleOn Value="1" />
 	</HeadLookToggle_Buggy>
 	<MultiCrewToggleMode>
