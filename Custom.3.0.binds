@@ -266,7 +266,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="SaitekX52Pro" Key="Joy_7">
+		<Primary Device="SaitekX52Pro" Key="Joy_31">
 			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
@@ -293,7 +293,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
-		<Primary Device="Mouse" Key="Mouse_1">
+		<Primary Device="SaitekX52Pro" Key="Joy_13">
 			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
@@ -354,7 +354,7 @@
 		<Secondary Device="Keyboard" Key="Key_0" />
 	</SelectTargetsTarget>
 	<WingNavLock>
-		<Primary Device="SaitekX52Pro" Key="Joy_8">
+		<Primary Device="SaitekX52Pro" Key="Joy_11">
 			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_Minus" />
@@ -395,7 +395,7 @@
 	</DeployHardpointToggle>
 	<DeployHardpointsOnFire Value="0" />
 	<ToggleButtonUpInput>
-		<Primary Device="SaitekX52Pro" Key="Joy_31">
+		<Primary Device="SaitekX52Pro" Key="Joy_7">
 			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
@@ -408,7 +408,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
-		<Primary Device="SaitekX52Pro" Key="Joy_14" />
+		<Primary Device="SaitekX52Pro" Key="Joy_14">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
@@ -458,13 +460,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo>
 	<LandingGearToggle>
-		<Primary Device="SaitekX52Pro" Key="Joy_12">
-			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
-		</Primary>
+		<Primary Device="SaitekX52Pro" Key="Joy_12" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</LandingGearToggle>
 	<MicrophoneMute>
-		<Primary Device="SaitekX52Pro" Key="Joy_11">
+		<Primary Device="SaitekX52Pro" Key="Joy_8">
 			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
@@ -485,7 +485,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</FireChaffLauncher>
 	<ChargeECM>
-		<Primary Device="SaitekX52Pro" Key="Joy_13">
+		<Primary Device="Mouse" Key="Mouse_1">
 			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
@@ -506,9 +506,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</EngineColourToggle>
 	<NightVisionToggle>
-		<Primary Device="SaitekX52Pro" Key="Joy_14">
-			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
-		</Primary>
+		<Primary Device="SaitekX52Pro" Key="Joy_14" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</NightVisionToggle>
 	<UIFocus>
@@ -577,7 +575,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PlayerHUDModeToggle>
 	<ExplorationFSSEnter>
-		<Primary Device="SaitekX52Pro" Key="Joy_12" />
+		<Primary Device="SaitekX52Pro" Key="Joy_12">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="Keyboard" Key="Key_Apostrophe" />
 	</ExplorationFSSEnter>
 	<UI_Up>
@@ -1016,7 +1016,7 @@
 		<ToggleOn Value="1" />
 	</HeadLookToggle_Buggy>
 	<MultiCrewToggleMode>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX52Pro" Key="Joy_6" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewToggleMode>
 	<MultiCrewPrimaryFire>
@@ -1469,7 +1469,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
-		<Primary Device="SaitekX52Pro" Key="Joy_12" />
+		<Primary Device="SaitekX52Pro" Key="Joy_12">
+			<Modifier Device="SaitekX52Pro" Key="Joy_6" />
+		</Primary>
 		<Secondary Device="Keyboard" Key="Key_Apostrophe" />
 	</ExplorationFSSQuit>
 	<FSSMouseXMode Value="Bindings_MouseYaw" />
